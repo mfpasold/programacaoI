@@ -12,7 +12,7 @@ package aula4.poo;
 public class Matriz {
 
     public static void main(String[] args) {
-        int matriz[][] = new int[200000000][200000000];
+        int matriz[][] = new int[2][3];
         
         matriz[0][0] = 3;
         matriz[0][1] = 5;
