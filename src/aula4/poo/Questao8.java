@@ -5,6 +5,8 @@
  */
 package aula4.poo;
 
+import java.util.Arrays;
+
 /**
  *
  * @author mfpasold
@@ -39,6 +41,17 @@ public class Questao8 {
                 }
             }
         }
+        
+        //Matriz transposta
+        int matriznova [][] = new int [matriz.length][matriz.length];
+		
+	for (int i = 0; i < matriz.length; i++) {
+            for (int j = 0; j < matriz.length; j++) {
+		matriznova[i][j] = matriz[j][i];
+		System.out.print(matriznova[i][j] + ", ");
+            }
+            System.out.println("");
+	}
 
         System.out.println("total da diagonal principal: " + somaDiagonal);
         System.out.println("Menor par: " + menorPar);
